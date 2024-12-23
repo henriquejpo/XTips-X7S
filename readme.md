@@ -13,6 +13,8 @@ QMK firmware files for the X.Tips X7S 36-key split keyboard.
 - RGB LED indicators for each layer
 - Split keyboard with 3x5 + 3 thumb keys per half
 - USB-C connection
+- TRRS/audio jack connection between halves
+
 
 ## Hardware Features
 
