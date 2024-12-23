@@ -1,8 +1,9 @@
 # X.Tips X7S QMK Firmware
 
 QMK firmware files for the X.Tips X7S 36-key split keyboard.
-![X.Tips X7S Keyboard](images/keyboard.png)
-
+<p align="center">
+  <img src="images/keyboard.jpg" width="80%" alt="X.Tips X7S Keyboard">
+</p>
 ## Overview
 
 - Works out of the box with [Vial 0.7.1](https://get.vial.today/download/)
