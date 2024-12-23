@@ -2,7 +2,7 @@
 
 QMK firmware files for the X.Tips X7S 36-key split keyboard.
 <p align="center">
-  <img src="images/keyboard.jpg" width="80%" alt="X.Tips X7S Keyboard">
+  <img src="images/keyboard.png" width="80%" alt="X.Tips X7S Keyboard">
 </p>
 ## Overview
 
