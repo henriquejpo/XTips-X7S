@@ -29,23 +29,18 @@ The RGB LEDs show different colors for each layer as defined in leds.c
 
 ## Files Structure
 
-- 
-
-config.h
-
- - Core configuration (RGB LED settings)
-- 
-
-keyboard.json
-
- - Keyboard layout and pin mapping
-- 
-
-via
-
- - VIA-enabled keymap files
-  - keymap.c - Default keymap with 9 layers
-  - leds.c - RGB LED layer indicators
+x7s/
+├── config.h               # Core configuration (RGB LED settings)
+├── halconf.h             # ChibiOS HAL configuration
+├── keyboard.json         # Keyboard layout and pin mapping
+├── mcuconf.h            # MCU-specific configuration
+├── rules.mk             # Build system rules
+├── x7s.c                # Keyboard initialization code
+└── keymaps/
+    └── via/
+        ├── keymap.c     # Default keymap with 9 layers
+        ├── leds.c       # RGB LED layer indicators
+        └── rules.mk     # VIA-specific build rules
 
 ## License
 
