@@ -27,20 +27,65 @@ QMK firmware files for the X.Tips X7S 36-key split keyboard.
 
 The RGB LEDs show different colors for each layer as defined in leds.c
 
-## Files Structure
+## Folder Structure
 
+```
 x7s/
-├── config.h               # Core configuration (RGB LED settings)
-├── halconf.h             # ChibiOS HAL configuration
-├── keyboard.json         # Keyboard layout and pin mapping
-├── mcuconf.h            # MCU-specific configuration
-├── rules.mk             # Build system rules
-├── x7s.c                # Keyboard initialization code
+├── 
+
+config.h
+
+               # Core QMK configuration
+├── 
+
+halconf.h
+
+             # ChibiOS HAL config
+├── info.json             # QMK keyboard info
+├── 
+
+keyboard.json
+
+         # VIA/Vial layout definition
+├── 
+
+mcuconf.h
+
+            # MCU settings for STM32F103
+├── readme.md            # This documentation
+├── 
+
+rules.mk
+
+             # QMK build rules
+├── 
+
+x7s.c
+
+                # Keyboard initialization
+├── x7s.h                # Matrix definitions
 └── keymaps/
-    └── via/
-        ├── keymap.c     # Default keymap with 9 layers
-        ├── leds.c       # RGB LED layer indicators
-        └── rules.mk     # VIA-specific build rules
+    ├── default/         # Default keymap
+    │   ├── keymap.c     # Base layer definitions
+    │   └── 
+
+rules.mk
+
+     # Keymap build rules  
+    └── via/            # VIA-enabled keymap
+        ├── keymap.c     # VIA keymap with 9 layers
+        ├── leds.c       # RGB LED indicators
+        ├── 
+
+config.h
+
+     # VIA-specific config
+        └── 
+
+rules.mk
+
+     # VIA build settings
+```
 
 ## License
 
