@@ -30,7 +30,7 @@ The RGB LEDs show different colors for each layer as defined in leds.c
 ## Folder Structure
 
 ```
-x7s/
+.
 ├── config.h               # Core configuration (RGB LED settings)
 ├── halconf.h             # ChibiOS HAL configuration
 ├── keyboard.json         # Keyboard layout and pin mapping
